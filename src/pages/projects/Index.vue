@@ -1,7 +1,7 @@
   <script>
   import axios from 'axios';
   import ProjectCard from '../../components/ProjectCard.vue';
-  
+
   export default {
     components: {
       ProjectCard
@@ -17,7 +17,7 @@
         axios.get(`${this.BASE_URL}/projects`)
         .then((res) => {
           console.log(res)
-          this.projects = res.data.results.data
+          this.projects = res.data.results
         })
       }
     },
