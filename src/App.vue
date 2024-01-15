@@ -1,16 +1,17 @@
 <script>
-export default {
-  data() {
-    return {
-      projects:[]
+ import ProjectIndex from './pages/projects/Index.vue';
+  export default {
+    components: {
+      ProjectIndex
     }
   }
-}
 
 </script>
 
 <template>
-  <div>Ciao Mondo</div>
+
+  <ProjectIndex/>
+
 </template>
 
 <style lang="scss">
