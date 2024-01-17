@@ -7,7 +7,10 @@
               <router-link :to="{ name: 'home' }">Home</router-link>
             </li>
             <li>
-              <router-link :to="{ name: 'projects.index'}">Projects</router-link>
+              <router-link :to="{ name: 'projects.index'}">Portfolio</router-link>
+            </li>
+            <li>
+              <router-link :to="{ name: 'contacts'}">Contacts</router-link>
             </li>
           </ul>
         </nav>
